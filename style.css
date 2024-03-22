@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(media/musicback.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 20px;
+    width: 150px;
+    cursor:progress;
+}
+
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+.navbar ul li a{
+    text-decoration:none;
+    font-size: 15px;
+    color:#f8f5f5;
+}
+
+.content{
+    width: 100%;
+    top:30%;
+    position: absolute;
+}
+
+.left-col{
+    margin-left: 6%;
+
+}
+
+.left-col h1{
+    font-size: 90px;
+    color: rgb(239, 232, 232);
+    line-height: 110px;
+    float: left;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top:120px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 25px;
+     font-weight: 400;
+     color: #f5f6f5ec;
+     margin-right: 15px;
+}
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
